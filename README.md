@@ -26,7 +26,7 @@ We aimed to capture the relation between the target variable "SalePrice" and sev
 - **Model Performance**
 
 Ridge Regression and Lasso Regression outperform Linear Regression with RFE in terms of R2 Score (both on the training and test datasets) and have lower Mean Squared Error (MSE) values. These results suggest that Ridge and Lasso Regression are providing better fits to the data and better generalization to the test dataset compared to the basic Linear Regression model.
-Additionally, Ridge Regression has the lowest RSS (Residual Sum of Squares) on the test dataset, indicating good model fit.
+Additionally, **Ridge Regression** has the lowest RSS (Residual Sum of Squares) on the test dataset, indicating **good model fit**.
 
 - **Features Importance**
 
@@ -37,6 +37,11 @@ As per our final model, **top 3 features** that are significant in predicting sa
 2. **OverallCond_9** : One unit increase in OverallCond_9 variable increases the price of house by 0.09 / 0.13 units. Higher the rating of house condition, higher the house price.
 
 3. **Neighborhood_Crawfor** : One unit increase in Neighborhood_Crawfor variable increases the price of house by 0.08 / 0.10 units. The house prices are higher in the neighborhood of Crawford.
+
+- **Optimal Value of alpha**
+
+Ridge : 9.0
+Lasso : 0.001
 
 ## Technologies Used
 
